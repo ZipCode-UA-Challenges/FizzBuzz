@@ -10,18 +10,26 @@ If the number is divisible by 3, print "Fizz". If the number is divisible by
 
 Each number or string should be followed by a newline character.
 
-> [!CAUTION]
-> Contains answers after scrolling. Please try the problem yourself first!
-> 
-> [GeeksForGeeks FizzBuzz](https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/)
-
 ## Getting Started
+
+> [!TIP]
+> This repository comes with a preconfigured C++ devcontainer for usage in GitHub Codespaces
+
+### Working in a Codespace
+
+- Click `<> Code` -> `Codespaces` -> `Create codespace on main`
+- Complete `src/FizzBuzz.cpp`
+- Run the project
+
+### Working Locally
+
 - Clone the copied repo provided to you through the github classroom link
 - Open the project in your editor of choice
 - Complete `src/FizzBuzz.cpp`
 - Run the project
 
 ## How to Run the Project
+
 > [!IMPORTANT]
 > This project uses cmake
 >
@@ -41,10 +49,17 @@ Each number or string should be followed by a newline character.
     - `./build/test`
    
 ## Submission
-> [!IMPORTANT]
+
+> [!TIP]
 > Learn more about git [here](https://git-scm.com/)
 
 - `git add -A`
 - `git commit -m "Finished FizzBuzz Problem"`
 - `git push origin main`
+- Open your GitHub repository and check your `Actions` tab for a passed test case
 - If tests do not pass, feel free to modify your code and then submit again!
+
+> [!CAUTION]
+> Contains answers after scrolling. Please try the problem yourself first!
+> 
+> [GeeksForGeeks FizzBuzz](https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/)
